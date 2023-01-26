@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "xfinity"
+version = "0.1.0"
+description = ""
+authors = ["Davies <daviesaraujo@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.1"
+pandas = "^1.5.3"
+selenium = "^4.8.0"
+undetected-chromedriver = "^3.2.1"
+webdriver-manager = "^3.8.5"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.11.4"
+black = "^22.12.0"
+prospector = "^1.8.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
